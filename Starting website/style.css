@@ -361,6 +361,11 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+                                            /*modif seo*/
+#logo{
+    width: 100px;
+    height: 100px;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -822,7 +827,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.png");
+    background-image: url("img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
@@ -884,8 +889,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 0 auto;
+        padding-right: 0 auto;
     }
 }
 
